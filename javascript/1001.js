@@ -7,7 +7,7 @@ const rl = readline.createInterface({
 
 rl.question('', (a) => {
     rl.question('', (b) => {
-        var x = Number(a) + Number(b);
+        var x = Number(a) + Number(b)
         console.log(`X = ${x}`);
         rl.close();
     });
